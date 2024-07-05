@@ -1,0 +1,46 @@
+
+INSERT:
+NOME: mais velho
+SOBRENOME: de todos
+IDADE: 100
+PESO: 70
+ALTURA: 1.6
+QUERY: insert into pessoas (nome, sobrenome, idade, peso, altura) values ('mais velho','de todos',100,70,1.6)
+DATA E HORA: 16/04/2024 10:04
+
+UPDATE:
+DADOS ANTIGOS:
+ID ANTIGO: 41
+NOME ANTIGO: mais velho
+SOBRENOME ANTIGO: de todos
+IDADE ANTIGO: 100
+PESO ANTIGO: 70.00
+ALTURA ANTIGO: 1.60
+DADOS ATUALIZADOS:
+ID: 41
+NOME: mais velhooooooooooooooooooooooooooooooooooooooooooooo
+SOBRENOME: de todossssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+IDADE: 100
+PESO: 70
+ALTURA: 1.6
+QUERY: update pessoas set nome='mais velhooooooooooooooooooooooooooooooooooooooooooooo', sobrenome='de todossssssssssssssssssssssssssssssssssssssssssssssssssssssssss', idade=100, peso=70, altura=1.6 where id_pessoa=41
+DATA E HORA: 16/04/2024 10:05
+
+DELETE:
+ID: 41
+NOME: mais velhooooooooooooooooooooooooooooooooooooooooo
+SOBRENOME: de todosssssssssssssssssssssssssssssssssssssssssss
+IDADE: 100
+PESO: 70.00
+ALTURA: 1.60
+QUERY: delete from pessoas where id_pessoa=41
+DATA E HORA: 16/04/2024 10:06
+
+INSERT:
+NOME: Julia Helena
+SOBRENOME: Melz
+IDADE: 20
+PESO: 100
+ALTURA: 1
+QUERY: insert into pessoas (nome, sobrenome, idade, peso, altura) values ('Julia Helena','Melz',20,100,1)
+DATA E HORA: 27/05/2024 10:04
